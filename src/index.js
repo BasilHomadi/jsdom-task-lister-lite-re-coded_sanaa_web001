@@ -11,5 +11,5 @@ const createNewTask = event => {
   event.preventDefault()
   const description = document.getElementById("new-task-description")
   const taskLi = document.createElement("li")
-  task.innerText
+  task.innerText = new
 }
