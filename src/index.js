@@ -10,5 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
 const createNewTask = event => {
   event.preventDefault()
   const description = document.getElementById("new-task-description")
-  const taskLi = document.createElement
+  const taskLi = document.createElement("li")
+  
 }
