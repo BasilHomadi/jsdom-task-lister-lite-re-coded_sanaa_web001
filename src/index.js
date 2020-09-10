@@ -14,6 +14,6 @@ const createNewTask = event => {
   task.innerText = description.value
 }
 
-function addTask() {
+function addTask(task) {
   
 }
