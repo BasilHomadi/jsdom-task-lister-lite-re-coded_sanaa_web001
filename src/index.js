@@ -13,7 +13,7 @@ const createNewTask = event => {
   const taskLi = document.createElement("li")
   task.innerText = description.value
   
-  addTask()
+  addTask(taskLi)
 }
 
 function addTask(task) {
