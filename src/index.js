@@ -15,5 +15,5 @@ const createNewTask = event => {
 }
 
 function addTask(task) {
-  document.getElementById("tasks")
+  document.getElementById("tasks").append
 }
