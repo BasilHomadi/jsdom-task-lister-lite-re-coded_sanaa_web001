@@ -8,5 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 const createNewTask = event => {
-  event.preventDefault
+  event.preventDefault()
+  
 }
