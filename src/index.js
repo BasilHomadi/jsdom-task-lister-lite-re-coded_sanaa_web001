@@ -7,4 +7,4 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-const createNewTask()
+const createNewTask = event => {
