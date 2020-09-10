@@ -6,5 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
       <input type="submit" value="Create New Task">
     </form>
     const taskForm = document.getElementById("create-task-form")
-    const 
+    const taskDescription = document.getElementById("new-task-description")
+    
 });
