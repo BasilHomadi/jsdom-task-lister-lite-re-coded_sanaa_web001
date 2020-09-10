@@ -12,8 +12,10 @@ const createNewTask = event => {
   const description = document.getElementById("new-task-description")
   const taskLi = document.createElement("li")
   task.innerText = description.value
+  
+  
 }
 
 function addTask(task) {
-  document.getElementById("tasks").appendChild
+  document.getElementById("tasks").appendChild(task)
 }
