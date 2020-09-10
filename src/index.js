@@ -14,6 +14,7 @@ const createNewTask = event => {
   task.innerText = description.value
   
   addTask(taskLi)
+  
 }
 
 function addTask(task) {
